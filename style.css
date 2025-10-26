@@ -1,13 +1,19 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #F3E3B2;
 }
 
 .body-header{
     background: linear-gradient(180deg, #310F10, #2A1312);
     width: 100%;
     height: 780px;
+}
+
+.header{
+    position: relative;
+    top: 40px;
+    right: 40px;
 }
 
 .opsi{
@@ -41,8 +47,8 @@ body{
 }
 
 .bulet2{
-    width: 370px;
-    height: 350px;
+    width: 470px;
+    height: 450px;
     background: linear-gradient(180deg, #E0C39A, #8F5F1C);
     border-radius: 100%;
     display: flex;
@@ -50,5 +56,117 @@ body{
     align-items: center;
     position: absolute;
     left: 220px;
-    top: 280px;
+    top: 230px;
+    z-index: 1;
+    box-shadow: #000000 10px 30px 30px;
+}
+
+.fotohanny{
+    position: relative;
+    z-index: 10;
+    width: 450px;
+    left: 230px;
+    top: 100px;
+}
+
+.profile{
+    position: absolute;
+    color: #F3E3B2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5px;
+    top: 190px;
+    right: 600px;
+}
+
+.name{
+    font-family: "great vibes", cursive;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.hello{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.fullstack{
+    border-bottom: #F3E3B2 2px solid;
+    font-size: 35px;
+}
+
+.paragraf{
+    position: absolute;
+    color: #F3E3B2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    top: 300px;
+    right: 370px;
+    width: 400px;
+}
+
+.fs{
+    right: 10px;
+    color: #F3E3B2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 230px;
+    right: 470px;
+}
+
+.container-profile{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-hanny{
+    position: absolute;
+    left: 50px;
+}
+
+.medsos{
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(90deg, #c2a986, #F3E3B2);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    bottom: 10px;
+    box-shadow: #000000 10px 10px 10px;
+}
+
+.medsos img{
+    height: 35px;
+    width: 35px;
+    padding-left: 29px;
+    padding-right: 22px;
+    padding-top: 8px;
+}
+
+.project{
+    position: relative;
+    top: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2px;
+    color: #281211;
+}
+
+.project2 img, .project4 img{
+    position: relative;
+    left: 509px;
+}
+
+.project2, .project4{
+  display: grid;
+  grid-template-columns: 150px 1fr; 
+  align-items: center;
+  gap: 15px;
+}
+
+.project1, .project3{
+  display: grid;
+  grid-template-columns: 0fr 300px; 
+  align-items: center;
+  gap: 15px;
+    
 }
