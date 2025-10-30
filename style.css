@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F3E3B2;
+    display: flex;
+    flex-direction: column;
 }
 
 .body-header{
@@ -11,7 +13,7 @@ body{
 }
 
 .header{
-    position: relative;
+    display: flex;
     top: 40px;
     right: 40px;
 }
@@ -29,7 +31,6 @@ body{
     width: 488px;
     height: 22px;
     align-items: center;
-    position: absolute;
 }
 
 .border-opsi{
@@ -62,20 +63,23 @@ body{
 }
 
 .fotohanny{
-    position: relative;
+    display: flex;
     z-index: 10;
     width: 450px;
-    left: 230px;
-    top: 100px;
+    padding-left: 230px;
+    padding-top: 40px;
 }
 
 .profile{
-    position: absolute;
+    display: flex;
+    flex-direction: column; 
     color: #F3E3B2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5px;
-    top: 190px;
-    right: 600px;
+}
+
+.hero{
+    display: flex;
 }
 
 .name{
@@ -95,33 +99,28 @@ body{
 }
 
 .paragraf{
-    position: absolute;
+    display: flex;
     color: #F3E3B2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 25px;
-    top: 300px;
-    right: 370px;
-    width: 400px;
 }
 
 .fs{
-    right: 10px;
+    display: flex;
     color: #F3E3B2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    top: 230px;
-    right: 470px;
 }
 
 .container-profile{
     font-size: 20px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .foto-hanny{
-    position: absolute;
-    left: 50px;
+    display: flex;
 }
 
 .medsos{
@@ -130,8 +129,7 @@ body{
     background: linear-gradient(90deg, #c2a986, #F3E3B2);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    position: absolute;
-    bottom: 10px;
+    display: flex;
     box-shadow: #000000 10px 10px 10px;
 }
 
@@ -144,15 +142,14 @@ body{
 }
 
 .project{
-    position: relative;
-    top: 500px;
+    display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2px;
     color: #281211;
 }
 
 .project2 img, .project4 img{
-    position: relative;
+    display: flex;
     left: 509px;
 }
 
